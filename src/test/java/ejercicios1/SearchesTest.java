@@ -29,13 +29,17 @@ class SearchesTest {
 
     @Test
     void testFindUserIdByAnyProperFraction() {
-        assertEquals(List.of("1","2","3","5"), new Searches().findUserIdByAnyProperFraction()
+        assertEquals(List.of("1", "2", "3", "5"), new Searches().findUserIdByAnyProperFraction()
                 .collect(Collectors.toList()));
     }
 
-    @Test
     void testFindUserNameByAnyImproperFraction() {
 
+    }
+
+    @Test
+    void testFailSlack() {
+        assertEquals(1, 2);
     }
 
     void testFindUserFamilyNameByAllSignFractionDistinct() {

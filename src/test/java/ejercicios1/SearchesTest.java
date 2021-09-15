@@ -37,10 +37,11 @@ class SearchesTest {
 
     }
 
+    /*
     @Test
     void testFailSlack() {
         assertEquals(1, 2);
-    }
+    }*/
 
     void testFindUserFamilyNameByAllSignFractionDistinct() {
     }
